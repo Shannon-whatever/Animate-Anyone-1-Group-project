@@ -29,4 +29,4 @@ This repository serves as the official codebase for the APAI3010 course group pr
 -Provided actionable insights for future work at the intersection of pose estimation and generative models.
 
 ## Collaboration:
-We welcome feedback, issue reports, and constructive dialogue from the community. For course-related inquiries, please contact [group representative email].
+We welcome feedback, issue reports, and constructive dialogue from the community. For course-related inquiries, please contact u3605873@connect.hku.hk.
