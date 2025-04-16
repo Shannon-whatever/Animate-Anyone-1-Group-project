@@ -26,7 +26,7 @@ This repository serves as the official codebase for the APAI3010 course group pr
 
 - Delivered a modular, well-documented codebase to support academic and industrial research in human animation.
 - Published quantitative/qualitative comparisons between original and extended results, highlighting trade-offs and advancements.
--Provided actionable insights for future work at the intersection of pose estimation and generative models.
+- Provided actionable insights for future work at the intersection of pose estimation and generative models.
 
 ## Collaboration:
 We welcome feedback, issue reports, and constructive dialogue from the community. For course-related inquiries, please contact u3605873@connect.hku.hk.
