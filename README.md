@@ -5,7 +5,7 @@ This repository serves as the official codebase for the APAI3010 course group pr
 
 ## Group Members:
 - Li Ka Lam (u3605873@connect.hku.hk)
-- Chen Shiyang ()
+- Chen Shiyang (whatever@connect.hku.hk)
 - Chechneva Kseniia ()
   
 ## Key Components:
