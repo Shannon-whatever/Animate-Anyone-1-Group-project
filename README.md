@@ -1,7 +1,7 @@
 # APAI3010 Group Project - Animate Anyone: Reproduction, Analysis, and Extensions
 
 ## Description:
-This repository contains our reproduction, analysis, and extension of the Animate Anyone pose-driven character animation framework. We reproduced the model using Moore Threads’ unofficial implementation, evaluated its performance on standard benchmarks and a custom dataset, and explored extensions to improve facial animation. Our work highlights both the strengths and limitations of the current state-of-the-art in image-to-video character animation.
+This repository contains our reproduction, analysis, and extension of the [Animate Anyone](https://arxiv.org/pdf/2311.17117) pose-driven character animation framework. We reproduced the model using Moore Threads’ unofficial implementation, evaluated its performance on standard benchmarks and a custom dataset, and explored extensions to improve facial animation. Our work highlights both the strengths and limitations of the current state-of-the-art in image-to-video character animation.
 
 ## Group Members:
 - Li Ka Lam (u3605873@connect.hku.hk)
@@ -37,8 +37,7 @@ Here are some reproduction results we generated.
 
 #### Robustness Evaluation
 
-To better assess generalization and robustness, we constructed a custom dataset and evaluated the model on this new data without any additional pre-training.
-Here are example reference images from our custom evaluation set, featuring diverse sub- jects—including real humans, robots, cartoons, 3D models, and artistic styles—used to test the model’s generalization and robustness.
+To better assess generalization and robustness, we constructed a custom dataset and evaluated the model on this new data without any additional pre-training. Below are example reference images from our custom evaluation set, featuring diverse subjects—including real humans, robots, cartoons, 3D models, and artistic styles—used to test the model’s generalization and robustness.
 
 ![Customized Dataset Summary (png)](https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/Figures/Appendix_2/ref_img_summary.png)
 
@@ -52,15 +51,17 @@ Here are example reference images from our custom evaluation set, featuring dive
 
 ### Extensions & Innovations:
 
-- Algorithmic Enhancements: Introduced [specific improvements, e.g., "a temporal coherence module to reduce frame flickering" or "an adaptive pose encoder for sparse input handling"].
-- Performance Optimization: Streamlined inference pipelines, achieving a [X]% reduction in computational overhead while maintaining visual fidelity.
-- Novel Applications: Explored adaptations for [specific use cases, e.g., "real-time animation" or "cross-domain stylization"].
+Based on the original Animate Anyone framework and our own observations, we explored the following directions to address its limitations and broaden its applicability:
+
+- **Facial Animation Enhancement:** Building on the paper’s observation that maintaining fine-grained facial consistency is challenging, we experimented with integrating additional facial keypoints and region-specific attention into the pose-guided pipeline, aiming to improve dynamic facial expression synthesis.
+- **Robustness to Diverse Characters:** Inspired by Animate Anyone’s claim to animate “arbitrary characters” with expanded training, we evaluated and documented failure cases on non-human and stylized datasets. This motivates future work in expanding training diversity and augmenting pose representations for better generalization.
+- **Efficiency and Inference Optimization:** We streamlined the inference pipeline following suggestions on efficient temporal modeling from the original paper, optimizing runtime and memory usage without sacrificing output quality.
 
 ## Contributions:
 
-- Delivered a modular, well-documented codebase to support academic and industrial research in human animation.
-- Published quantitative/qualitative comparisons between original and extended results, highlighting trade-offs and advancements.
-- Provided actionable insights for future work at the intersection of pose estimation and generative models.
+- **Comprehensive Reproduction:** Replicated the Animate Anyone pipeline and validated performance on widely-used benchmarks and new, challenging datasets.
+- **In-depth Analysis:** Provided both quantitative and qualitative comparisons, identifying the model’s strengths (detail preservation, temporal consistency) and its weaknesses (especially with out-of-distribution data and facial motion).
+
 
 ## Collaboration:
-We welcome feedback, issue reports, and constructive dialogue from the community. For course-related inquiries, please contact u3605873@connect.hku.hk.
+We welcome feedback, suggestions, and collaboration from the academic and open-source community. Please feel free to open issues, submit pull requests, or contact us with questions. For course-related inquiries, please contact u3605873@connect.hku.hk.
