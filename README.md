@@ -1,12 +1,12 @@
-# APAI3010 Group Project - Reproduction and Extensions of Animate Anyone
+# APAI3010 Group Project - Animate Anyone: Reproduction, Analysis, and Extensions
 
 ## Description:
-This repository serves as the official codebase for the APAI3010 course group project, dedicated to rigorously reproducing the results of the seminal paper Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation ([original work cited here](https://humanaigc.github.io/animate-anyone/)). Building upon the paper's core methodology, our team further explores targeted extensions and improvements to enhance its robustness, efficiency, or applicability in real-world scenarios.
+This repository contains our reproduction, analysis, and extension of the Animate Anyone pose-driven character animation framework. We reproduced the model using Moore Threads’ unofficial implementation, evaluated its performance on standard benchmarks and a custom dataset, and explored extensions to improve facial animation. Our work highlights both the strengths and limitations of the current state-of-the-art in image-to-video character animation.
 
 ## Group Members:
 - Li Ka Lam (u3605873@connect.hku.hk)
 - Chen Shiyang (whatever@connect.hku.hk)
-- Chechneva Kseniia ()
+- Chechneva Kseniia (u3646503@connect.hku.hk)
   
 ## Key Components:
 
