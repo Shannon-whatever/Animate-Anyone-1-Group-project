@@ -16,9 +16,9 @@ We faithfully reproduced the Animate Anyone framework by leveraging Moore Thread
 
 Here are some reproduction results we generated.
 
-https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/demos/ubc/ubc1.mp4
+[UBC Example 1 (mp4)](https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/demos/ubc/ubc1.mp4)
 
-https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/demos/ubc/ubc2.mp4
+[UBC Example 2 (mp4)](https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/demos/ubc/ubc2.mp4)
 
 ### Extensions & Innovations:
 
