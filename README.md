@@ -12,9 +12,13 @@ This repository contains our reproduction, analysis, and extension of the Animat
 
 ### Reproduction:
 
-- Faithfully reimplemented the authors' framework using [PyTorch/TensorFlow/JAX], validated against benchmark datasets.
-- Conducted ablation studies to verify critical design choices and hyperparameters.
-- Provided pre-trained models, evaluation scripts, and comprehensive documentation to ensure reproducibility.
+We faithfully reproduced the Animate Anyone framework by leveraging Moore Threads’ unofficial implementation, following the original pipeline for pose-driven character animation. Our experiments were conducted on public benchmarks—including the UBC Fashion and TikTok datasets—as well as a custom dataset featuring diverse human and non-human characters. The reproduction process involved replicating the model’s inference workflow, evaluating its performance in terms of temporal consistency, detail preservation, and generalization ability, and comparing our results with those reported in the original paper. This stage allowed us to systematically assess the strengths and shortcomings of the official approach in real-world scenarios.
+
+Here are some reproduction results we generated.
+
+https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/demos/ubc/ubc1.mp4
+
+https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/demos/ubc/ubc2.mp4
 
 ### Extensions & Innovations:
 
