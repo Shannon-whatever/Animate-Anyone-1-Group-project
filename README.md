@@ -16,13 +16,19 @@ We faithfully reproduced the Animate Anyone framework by leveraging Moore Thread
 
 Here are some reproduction results we generated.
 
+#### UBC Fashion dataset: strong detail preservation 
+
 ![UBC Examples (png)](https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/Figures/UBC_fashion_comparison.png)
 [UBC Examples (mp4)](https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/tree/main/demos/ubc)
+
+- Our reproduced results demonstrate strong detail preservation and temporal consistency, closely matching the original paper’s claims. Competing methods (DreamPose, BDMM) fail to accurately capture clothing details and maintain high resolution over the video sequence.
+
+#### TikTok Dataset: temporal consistency
 
 ![TikTok Examples (png)](https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/blob/main/Figures/TikTok_comparison.png)
 [TikTok Examples (mp4)](https://github.com/Shannon-whatever/Animate-Anyone-1-Group-project/tree/main/demos/tiktok)
 
-
+- 
 
 ### Extensions & Innovations:
 
